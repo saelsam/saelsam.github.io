@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    /* background-color: coral; */
+  }
+
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(184, 20, 20);
+    /* background-image: url("logo.png"); */
+    top: 0;
+    z-index: 10;
+  }
+
+  .header-kiri {
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;    
+  }
+  
+  .header-kanan {
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  .header-kanan a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-kanan a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+.content1{
+  height: 550px;
+  width: 100%;
+  padding: 150px 0 100px 0;
+  background-image: url("Lolai-Toraja-Utara.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.content1 h1{
+  height: 550px;
+  color: wheat;
+}
+
+
+/* list gambar */
+div.gallery {
+  border: 2px solid #ccc;
+  width: 100%;
+  height: 200px;
+  
+}
+
+div.gallery:hover {
+  border: 2px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 32.99999%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
